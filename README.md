@@ -6,6 +6,7 @@ first build and install protobuf ( useful to run onnx2c )
 create alias in .bashrc
 
 export LD_LIBRARY_PATH=/usr/local/lib
+
 ./ia_detect -s ./data/ -d ./results -i person.jpg
 
 the processing image is generated into ./objets_detected
